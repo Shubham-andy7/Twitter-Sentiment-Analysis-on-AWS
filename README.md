@@ -26,6 +26,32 @@ This project builds a **real-time Twitter sentiment analysis pipeline** using **
 
 ---
 
+## 📂 Project Structure
+```
+📦 twitter-sentiment-analysis-aws
+│── 📂 data_ingestion
+│   ├── kinesis_stream_setup.py
+│   ├── lambda_producer.py
+│── 📂 data_processing
+│   ├── glue_etl.py
+│── 📂 sentiment_analysis
+│   ├── lambda_sentiment.py
+│── 📂 api_gateway
+│   ├── lambda_api.py
+│── 📂 visualization
+│   ├── quicksight_dashboard.md
+│── 📂 infrastructure
+│   ├── terraform.tf  # Terraform script to deploy AWS resources (Optional)
+│── 📂 scripts
+│   ├── fetch_tweets.py
+│   ├── test_api.py
+│── 📜 README.md
+│── 📜 requirements.txt
+│── 📜 .gitignore
+```
+
+---
+
 ## **🚀 AWS Services Used**
 - **AWS Kinesis** → Real-time tweet ingestion.
 - **AWS S3** → Store raw & processed tweet data.
