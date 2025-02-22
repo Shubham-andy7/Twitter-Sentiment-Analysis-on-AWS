@@ -117,5 +117,4 @@ curl "https://abc123.execute-api.us-east-1.amazonaws.com/prod/sentiment?tweet_id
 
 ## 💡 Credits
 Developed by:
-1. [Shubham Kulkarni](https://github.com/Shubham-andy7)
-2. [Aman Gupta](https://github.com/amangupta05)
+[Shubham Kulkarni](https://github.com/Shubham-andy7)
