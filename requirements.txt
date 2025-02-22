@@ -1,0 +1,5 @@
+boto3
+tweepy
+pandas
+requests
+awscli
